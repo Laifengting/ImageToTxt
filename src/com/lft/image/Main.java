@@ -14,15 +14,16 @@ package com.lft.image;
 public class Main {
     public static void main(String[] args) throws Exception {
         // 图片路径
-        String imagePath = "D:\\04.jpg";
+        String imagePath = "D:\\02.jpg";
         // 转换后的文本路径
-        String textPath = "D:\\code04.txt";
+        String textPath = "D:\\code02.txt";
         // 输出宽度大小
         Integer outWidth = 50;
         /* 对比度 */
-        float contrastRatio = 1.0f;
+        float contrastRatio = 1.4f;
         /* 亮度 */
-        float brightnessRatio = 1.0f;
+        float brightnessRatio = 0.9f;
+        
         ImageToTxt.imageToTxt(imagePath, 2, textPath, outWidth, contrastRatio, brightnessRatio);
     }
 }

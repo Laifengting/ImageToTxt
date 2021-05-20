@@ -40,7 +40,7 @@ public class ImagePixel {
         bufferedImage = contrastBightNessAdjust.adjust(bufferedImage, null);
         
         /* 用于输出图片测试亮度对比度调节 */
-        File out = new File("D:\\N04.jpg");
+        File out = new File("D:\\N02.jpg");
         ImageIO.write(bufferedImage, "jpg", out);
         
         int width = bufferedImage.getWidth();
